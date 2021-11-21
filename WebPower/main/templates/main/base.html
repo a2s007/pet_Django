@@ -10,16 +10,12 @@
     <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
-    <aside>
-        <h3>Навигация</h3>
-        <ul>
-            <a href="{% url 'home' %}"><li><i class="bi bi-align-bottom"></i>Главная</li></a>
-            <a href="{% url 'about' %}"><li>Про автора</li></a>
-        </ul>
-    </aside>
-    <main>
-        {% block body %}
-        {% endblock %}
-    </main>
+    <h3>Навигация</h3>
+    <ul>
+        <a href="{% url 'home' %}"><li><i class="bi bi-align-bottom"></i>Главная</li></a>
+        <a href="{% url 'about' %}"><li>Про автора</li></a>
+    </ul>
+    {% block content %}
+    {% endblock %}
 </body>
 </html>

@@ -2,7 +2,10 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'main/index.html')
+    data = {
+        'value': 'lala'
+    }
+    return render(request, 'main/index.html', data)
 
 
 def about(request):
