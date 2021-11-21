@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.idea/
+WebPower/accounts/__init__.py
+WebPower/accounts/admin.py
+WebPower/accounts/apps.py
+WebPower/accounts/migrations/__init__.py
+WebPower/accounts/models.py
+WebPower/accounts/static/
+WebPower/accounts/templates/
+WebPower/accounts/tests.py
+WebPower/accounts/views.py
+WebPower/main/static/

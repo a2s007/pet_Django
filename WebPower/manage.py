@@ -2,7 +2,8 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-# test git pull --rebase origin master
+# new code
+a = 23
 
 def main():
     """Run administrative tasks."""
